@@ -34,3 +34,11 @@ theme:
     - toc.follow
     # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
     - navigation.top
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
+    - search.suggest
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-sharing
+    - search.share
+
+plugins:
+  # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
+  - search

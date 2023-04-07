@@ -23,3 +23,14 @@ theme:
   icon:
     logo: material/file-document-outline
   favicon: assets/images/favicon.png
+  features:
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
+    - navigation.tabs
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
+    - navigation.expand
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
+    - navigation.indexes
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-following
+    - toc.follow
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
+    - navigation.top

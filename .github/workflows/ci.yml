@@ -1,0 +1,30 @@
+# Ref: https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+name: ci
+on:
+  push:
+    branches:
+      - master
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+      - run: pip install mkdocs-material
+      - run: mkdocs gh-deploy --force
+
+# TODO (Deploy the site):
+# - In the forked GitHub repo page, go to `Settings > Pages` and change `Branch` to `gh-pages`:
+#       https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+# - Visit the site at `https://<username>.github.io/<repository>`
+# - To publish the site to other platforms, refer to the link below:
+#       https://squidfunk.github.io/mkdocs-material/publishing-your-site/

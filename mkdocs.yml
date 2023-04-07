@@ -19,3 +19,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  # Ref: https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons
+  icon:
+    logo: material/file-document-outline
+  favicon: assets/images/favicon.png

@@ -1,6 +1,8 @@
 site_name: My Docs
 theme:
   name: material
+  # Ref: https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
+  custom_dir: overrides
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors
   palette:
     # Palette toggle for light mode
@@ -38,6 +40,10 @@ theme:
     - search.suggest
     # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-sharing
     - search.share
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#automatic-hiding
+    - header.autohide
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#mark-as-read
+    - announce.dismiss
 
 plugins:
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search

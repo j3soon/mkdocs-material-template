@@ -44,6 +44,9 @@ plugins:
   - search
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
   - social
+  # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
+  - tags:
+      tags_file: tags.md
 
 # extra:
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics

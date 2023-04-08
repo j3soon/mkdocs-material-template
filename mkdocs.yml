@@ -44,6 +44,8 @@ theme:
     - header.autohide
     # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#mark-as-read
     - announce.dismiss
+    # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/
+    - navigation.footer
 
 plugins:
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
@@ -54,13 +56,26 @@ plugins:
   - tags:
       tags_file: tags.md
 
-# extra:
+extra:
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics
   # analytics:
   #   provider: google
   #   property: G-XXXXXXXXXX # Google Analytics 4
+  # TODO (Set up site analytics):
+  # - Uncomment the `analytics` section above
+  # - Refer to the link below for remaining steps:
+  #       https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics
 
-# TODO (Set up site analytics):
-# - Uncomment the `analytics` section above
-# - Refer to the link below for remaining steps:
-#       https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics
+  # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
+  # social:
+  #   - icon: fontawesome/brands/github
+  #     link: <link>
+  # TODO (Add social links):
+  # - Uncomment the `social` section above
+  # - Refer to the link below for remaining steps:
+  #       https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
+
+# Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#copyright-notice
+# copyright: Copyright &copy; 2023 <name>
+# TODO (Set up copyright notice):
+# - Uncomment the `copyright` line above and enter your name

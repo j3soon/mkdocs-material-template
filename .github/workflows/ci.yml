@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        # Ref: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin#note-when-using-build-environments
+        with:
+          fetch-depth: '0'
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -19,7 +22,7 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
+      - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
 
 # TODO (Deploy the site):

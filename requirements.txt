@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+# Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
+# For social cards
+pillow
+cairosvg

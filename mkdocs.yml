@@ -42,6 +42,8 @@ theme:
 plugins:
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
   - search
+  # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
+  - social
 
 # extra:
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics

@@ -42,3 +42,14 @@ theme:
 plugins:
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
   - search
+
+# extra:
+  # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX # Google Analytics 4
+
+# TODO (Set up site analytics):
+# - Uncomment the `analytics` section above
+# - Refer to the link below for remaining steps:
+#       https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics

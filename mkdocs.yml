@@ -137,3 +137,8 @@ repo_url: https://github.com/j3soon/mkdocs-material-template
 # repo_name: j3soon/mkdocs-material-template
 # TODO (Set up git repository):
 # - Replace the `repo_url`/`repo_name` above to your repository URL
+
+nav:
+  - Template:
+    - index.md
+    - Tags: tags.md

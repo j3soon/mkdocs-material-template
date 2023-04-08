@@ -47,6 +47,18 @@ theme:
     # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/
     - navigation.footer
 
+markdown_extensions:
+# Ref: https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+
 plugins:
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
   - search

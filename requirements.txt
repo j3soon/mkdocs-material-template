@@ -1,6 +1,9 @@
 mkdocs
 mkdocs-material
-# Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
 # For social cards
+# Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
 pillow
 cairosvg
+# For document revision dates
+# Ref: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
+mkdocs-git-revision-date-localized-plugin

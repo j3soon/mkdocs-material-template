@@ -52,6 +52,10 @@ plugins:
   - search
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
   - social
+  # Ref: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
+  # Ref: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
+  - git-revision-date-localized:
+      enable_creation_date: true
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
   - tags:
       tags_file: tags.md

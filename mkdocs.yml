@@ -79,3 +79,9 @@ extra:
 # copyright: Copyright &copy; 2023 <name>
 # TODO (Set up copyright notice):
 # - Uncomment the `copyright` line above and enter your name
+
+# Ref: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
+repo_url: https://github.com/j3soon/mkdocs-material-template
+# repo_name: j3soon/mkdocs-material-template
+# TODO (Set up git repository):
+# - Replace the `repo_url`/`repo_name` above to your repository URL

@@ -143,6 +143,7 @@ repo_url: https://github.com/j3soon/mkdocs-material-template
 # - Replace the `repo_url`/`repo_name` above to your repository URL
 
 nav:
-  - Template:
+  - Home:
     - index.md
+    - styling-syntaxes.md
     - Tags: tags.md

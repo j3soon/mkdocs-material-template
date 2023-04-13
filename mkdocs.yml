@@ -146,4 +146,5 @@ nav:
   - Home:
     - index.md
     - styling-syntaxes.md
+    - dlbook-notations.md
     - Tags: tags.md

@@ -1,4 +1,3 @@
-mkdocs
 mkdocs-material
 # For social cards
 # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
@@ -10,3 +9,5 @@ mkdocs-git-revision-date-localized-plugin
 # For fixing nested list
 # Ref: https://github.com/mkdocs/mkdocs/issues/545#issuecomment-522196661
 mdx_truly_sane_lists
+# For python macros support
+mkdocs-macros-plugin

@@ -10,3 +10,10 @@
   <!-- Add announcement here, including arbitrary HTML -->
 {% endblock %}
 {% endraw %}
+
+{% block header %}
+  {{ super() }}
+  {% if page.meta and page.meta.dlbook_notations == true %}
+    {% include "partials/dlbook-notations.html" %}
+  {% endif %}
+{% endblock %}

@@ -48,6 +48,8 @@ theme:
     - announce.dismiss
     # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/
     - navigation.footer
+    # TODO (Remove navigation footer):
+    # - Comment the `navigation.footer` line above.
 
 markdown_extensions:
 # Ref: https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/

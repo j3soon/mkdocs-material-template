@@ -1,4 +1,6 @@
-site_name: My Docs
+site_name: Mkdocs Material Template
+# TODO (Set up site name):
+# - Replace the `site_name` value above with your site name.
 theme:
   name: material
   # Ref: https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme

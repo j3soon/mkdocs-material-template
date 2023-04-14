@@ -151,6 +151,9 @@ nav:
     - index.md
     - styling-syntaxes.md
     - dlbook-notations.md
+    # TODO (Remove sample pages):
+    # - Comment the sample pages entries above.
+    # - Delete the pages and their assets in `docs/<PAGE_NAME>` and `docs/assets/images/<PAGE_NAME>`
     - Tags: tags.md
     # TODO (Remove tags page):
     # - Comment the `Tags` line above.

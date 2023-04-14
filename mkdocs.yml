@@ -152,3 +152,7 @@ nav:
     - styling-syntaxes.md
     - dlbook-notations.md
     - Tags: tags.md
+    # TODO (Remove tags page):
+    # - Comment the `Tags` line above.
+    # - Comment the `tags` entry in the `plugins` section.
+    # - Delete the `docs/tags.md` file.

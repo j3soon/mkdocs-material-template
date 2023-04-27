@@ -16,3 +16,44 @@ The template features:
 2. Search for `TODO`s in the forked repository and modify accordingly to customize your site.
 
 Please make sure to fork the repository (or at least keep the Git commit history), since it allows you to merge in future updates from the template easily.
+
+## Run Locally
+
+1. Clone the repository (or your forked repository):
+
+   ```sh
+   cd ~
+   git clone https://github.com/j3soon/mkdocs-material-template.git
+   cd mkdocs-material-template
+   ```
+
+2. (Optional) Set up a virtual environment:
+
+   ```sh
+   virtualenv venv -p python3
+   source venv/bin/activate
+   ```
+
+   Make sure to run the `source` command every time you open a new terminal.
+
+3. Install dependencies:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. Preview the site (supports hot reload on save):
+
+   ```sh
+   mkdocs serve
+   ```
+
+   Go to [https://127.0.0.1:8000](https://127.0.0.1:8000) to view the site.
+
+5. (Optional) Build the site:
+
+   ```sh
+   mkdocs build
+   ```
+
+   The site will be built to the `site` directory.

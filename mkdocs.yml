@@ -120,6 +120,9 @@ extra:
   # - Uncomment the `analytics` section above
   # - Refer to the link below for remaining steps:
   #       https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics
+  # TODO (Search console):
+  # - After setting up Google Analytics, you might want to set up Google Search Console as well:
+  #       https://search.google.com/search-console/
 
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   # social:

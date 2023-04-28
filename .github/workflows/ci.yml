@@ -29,5 +29,9 @@ jobs:
 # - In the forked GitHub repo page, go to `Settings > Pages` and change `Branch` to `gh-pages`:
 #       https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 # - Visit the site at `https://<username>.github.io/<repository>`
+# - For using custom domain, refer to the link below:
+#       https://www.mkdocs.org/user-guide/deploying-your-docs/#custom-domains
 # - To publish the site to other platforms, refer to the link below:
 #       https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+# - Take Netlify as an example, follow:
+#       https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-netlify/

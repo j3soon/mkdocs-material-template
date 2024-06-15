@@ -111,7 +111,7 @@ plugins:
 
 extra:
   # Variable for inserting images easily
-  imgroot: ../assets/images/
+  imgroot: /../assets/images/
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics
   # analytics:
   #   provider: google

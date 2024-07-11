@@ -7,6 +7,13 @@ theme:
   custom_dir: overrides
   # Ref: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default

@@ -24,6 +24,10 @@ jobs:
           path: .cache
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
+        # Ref: https://github.com/ojacques/mkdocs-git-committers-plugin-2
+        # Ref: https://github.com/ojacques/mkdocs-git-committers-plugin-2/issues/51#issuecomment-1951450239
+        env:
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
 
 # TODO (Deploy the site):
 # - In the forked GitHub repo page, go to `Settings > Pages` and change `Branch` to `gh-pages`:
@@ -35,3 +39,5 @@ jobs:
 #       https://squidfunk.github.io/mkdocs-material/publishing-your-site/
 # - Take Netlify as an example, follow:
 #       https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-netlify/
+#   Make sure to also set up the secrets:
+#       https://docs.netlify.com/environment-variables/get-started/#site-environment-variables

@@ -10,6 +10,8 @@ The template features:
 - [Simple inclusion of post images](https://j3soon.github.io/mkdocs-material-template/styling-syntaxes/)
 - [DL Book Notations](https://j3soon.github.io/mkdocs-material-template/dlbook-notations/)
 
+If you like this template, consider sponsoring [@squidfunk](https://github.com/sponsors/squidfunk) for his amazing work. As a sponsor, you'll gain access to additional [Insider features](https://squidfunk.github.io/mkdocs-material/insiders/benefits/).
+
 ## Getting started
 
 1. Fork this Git repository
